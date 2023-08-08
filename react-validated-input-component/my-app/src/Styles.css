@@ -1,0 +1,20 @@
+.fa-check {
+  color: rgb(107, 167, 79);
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.fa-xmark {
+  color: rgb(206, 43, 40);
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  display: inline;
+}
+
+.form-text {
+  display: block;
+  color: red;
+}
