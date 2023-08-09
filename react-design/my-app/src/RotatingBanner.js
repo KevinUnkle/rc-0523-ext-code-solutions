@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function RotatingBanner({ items }) {
-  const current = 1;
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  function handleNext() {
+    const nextIndex = (currentIndex + 1) % items.length;
+    setCurrentIndex(nextIndex);
+  }
+
+  function handlePrev() {
+    const previousIndex = (currentIndex - 1 + items.length) % items.length;
+    setCurrentIndex(previousIndex);
+  }
+  function handleSelect(index) {
+    setCurrentIndex(index);
+  }
+
   return (
     <div>
-      <Banner item={items[current]} />
+      <Banner title={items[currentIndex]} />
       <div>
         <PrevButton />
-        <Indicators count={items.length} currentIndex={current} />
+        <Indicators count={items.length} currentIndex={currentIndex} />
         <NextButton />
       </div>
     </div>
@@ -34,7 +48,7 @@ function PrevButton({ onPrev }) {
   );
 }
 
-function Indicators({ count, current, onSelect }) {
+function Indicators({ count, currentIndex, onSelect }) {
   const buttons = [];
   for (let i = 0; i < count; i++) {
     buttons.push(
@@ -42,7 +56,7 @@ function Indicators({ count, current, onSelect }) {
         key={i}
         type="button"
         onClick={() => onSelect(i)}
-        style={{ backgroundColor: i === current ? 'lightblue' : 'white' }}>
+        style={{ backgroundColor: i === currentIndex ? 'lightblue' : '' }}>
         {i}
       </button>
     );
