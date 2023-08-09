@@ -3,14 +3,14 @@ import React from 'react';
 export default function RotatingBanner({ items }) {
   const current = 1;
   return (
-    <>
-      <Banner title={items[1]} />
-      <PrevButton />
-      <br />
-      <Indicators count={items.length} currentIndex={current} />
-      <br />
-      <NextButton />
-    </>
+    <div>
+      <Banner item={items[current]} />
+      <div>
+        <PrevButton />
+        <Indicators count={items.length} currentIndex={current} />
+        <NextButton />
+      </div>
+    </div>
   );
 }
 
