@@ -12,17 +12,21 @@ export default function RotatingBanner({ items }) {
     const previousIndex = (currentIndex - 1 + items.length) % items.length;
     setCurrentIndex(previousIndex);
   }
+
   function handleSelect(index) {
     setCurrentIndex(index);
   }
-
   return (
     <div>
-      <Banner title={items[currentIndex]} />
+      <Banner item={items[currentIndex]} />
       <div>
-        <PrevButton />
-        <Indicators count={items.length} currentIndex={currentIndex} />
-        <NextButton />
+        <PrevButton onPrev={handlePrev} />
+        <Indicators
+          count={items.length}
+          currentIndex={currentIndex}
+          onSelect={handleSelect}
+        />
+        <NextButton onNext={handleNext} />
       </div>
     </div>
   );
@@ -56,7 +60,7 @@ function Indicators({ count, currentIndex, onSelect }) {
         key={i}
         type="button"
         onClick={() => onSelect(i)}
-        style={{ backgroundColor: i === currentIndex ? 'lightblue' : '' }}>
+        style={{ backgroundColor: i === currentIndex ? 'lightblue' : 'white' }}>
         {i}
       </button>
     );
