@@ -1,0 +1,251 @@
+    1  git branch react-components
+    2  git switch react-components
+    3  cd react-components
+    4  npx create-react-app my-app
+    5  cd my-app
+    6  npm start
+    7  cd ..
+    8  cd ..
+    9  git add react-components
+   10  git commit -m "Completed react-components exercise."
+   11  git push origin react-components
+   12  git switch main
+   13  git switch react-components
+   14  git switch main
+   15  git branch react-props-and-expressions
+   16  git switch react-props-and-expressions
+   17  cd react-props-and-expressions
+   18  npx create-react-app my-app
+   19  cd my-app
+   20  npm start
+   21  cd ..
+   22  cd ..
+   23  git add react-props-and-expressions
+   24  git status
+   25  git commit -m "Completed react-props-and-expressions exercise."
+   26  git push origin react-props-and-expressions
+   27  git switch main
+   28  git branch react-events
+   29  git switch react-events
+   30  cd react-events
+   31  npx create-react-app my-app
+   32  cd my-app
+   33  npm start
+   34  cd my-app
+   35  cd react-events
+   36  cd my-app
+   37  npm start
+   38  cd ..
+   39  cd ..
+   40  git add react-events
+   41  git commit -m "Completed react-events exercise."
+   42  git push origin react-events
+   43  git status
+   44  git add react-events
+   45  git status
+   46  git commit -m "deleted unused code"
+   47  git push origin react-events
+   48  git switch main
+   49  git branch react-state
+   50  git switch react-state
+   51  cd react-state
+   52  npx create-react-app my-app
+   53  cd my-app
+   54  npm start
+   55  cd ..
+   56  cd ..
+   57  git add react-state
+   58  git status
+   59  git commit -m "Completed react-state exercise."
+   60  git push origin react-state
+   61  git switch main
+   62  git branch react-hot-button-component
+   63  git switch react-hot-button-component
+   64  cd react-hot-button-component
+   65  cd react-hot-button-component
+   66  cd react-hot-button-component
+   67  npx create-react-app my-app
+   68  cd my-app
+   69  npm start
+   70  cd ..
+   71  cd ..
+   72  git add react-hot-button-component
+   73  git status
+   74  git commit -m "Completed react-hot-button-component exercise."
+   75  git push origin react-hot-button-component
+   76  git switch main
+   77  git branch react-rendering-lists
+   78  git switch react-rendering-lists
+   79  cd react-rendering-lists
+   80  npx create-react-app my-app
+   81  cd my-app
+   82  npm start
+   83  cd ..
+   84  cd ..
+   85  git status
+   86  git add react-rendering-lists
+   87  git status
+   88  git commit -m "Completed react-rendering-lists exercise."
+   89  git push origin react-rendering-lists
+   90  git switch main
+   91  git branch react-form-controls
+   92  git switch react-form-controls
+   93  cd react-form-controls
+   94  npx create-react-app my-app
+   95  cd my-app
+   96  npm start
+   97  cd ..
+   98  cd ..
+   99  git add react-form-controls
+  100  git status
+  101  git commit -m "Completed react-form-controls exercise."
+  102  git push origin react-form-controls
+  103  git switch main
+  104  git branch react-form-controls
+  105  git branch react-validated-input-component
+  106  git switch react-validated-input-component
+  107  cd react-validated-input-component
+  108  npx create-react-app my-app
+  109  cd my-app
+  110  npm start
+  111  cd ..
+  112  cd ..
+  113  git status
+  114  git add react-validated-input-component
+  115  git status
+  116  git commit -m "Completed react-validated-input-component exercise."
+  117  git push origin react-validated-input-component
+  118  cd react-validated-input-component
+  119  cd my-app
+  120  npm start
+  121  cd ..
+  122  cd ..
+  123  git switch main
+  124  git add react-validated-input-component
+  125  git commit -m "deleted extra password title"
+  126  git switch main
+  127  git branch react-design
+  128  git switch react-design
+  129  cd react-design
+  130  npx create-react-app my-app
+  131  cd my-app
+  132  npm start
+  133  cd ..
+  134  cd ..
+  135  git add react-design
+  136  git status
+  137  git commit -m "Completed phase 1"
+  138  git add react-design
+  139  git status
+  140  git commit -m "Updated! Completed phase 1"
+  141  git push origin react-design
+  142  cd react-design
+  143  cd my-app
+  144  npm start
+  145  npm start
+  146  cd ..
+  147  cd ..
+  148  git add react-design
+  149  git commit -m "Final phase 1 portion completed"
+  150  git push origin react-design
+  151  cd react-design
+  152  cd my-app
+  153  npm start
+  154  cd ..
+  155  cd ..
+  156  git add react-design
+  157  git status
+  158  git commit -m "Possibly completed phase 2?"
+  159  git push origin react-design
+  160  cd react-design
+  161  cd my-app
+  162  npm start
+  163  cd ..
+  164  cd ..
+  165  git add react-design
+  166  git commit -m "Completed step 3"
+  167  git push origin react-design
+  168  cd react-accordion-component
+  169  cd my-app
+  170  npm start
+  171  cd ..
+  172  cd ..
+  173  git status
+  174  git add react-accordion-component
+  175  git status
+  176  git commit -m "Completed react-accordion-component exercise."
+  177  git push origin react-accordion-component
+  178  git switch main
+  179  git branch command-line-basics
+  180  git switch command-line-basics
+  181  cd command-line-basics
+  182  man man
+  183  man cat
+  184  cat laziness.txt
+  185  man cat laziness.txt
+  186  cat laziness.txt
+  187  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  188  cat three-virtues.txt
+  189  man cat three-virtues.txt
+  190  cat three-virtues.txt
+  191  man cat
+  192  cat three-virtues.txt
+  193  man ls
+  194  ls -a
+  195  ls -F
+  196  ls lfz-staff/
+  197  ls -aF-staff
+  198  ls -aF lfz-staff > lfz-staff/contents.txt
+  199  ls -aF
+  200  ls lfz-staff/.bill
+  201  ls lfz-staff/bill
+  202  ls lfz-staff/
+  203  ls -aF lfz-staff > lfz-staff/contents.txt
+  204  cat lfz-staff/contents.txt
+  205  man ls
+  206  man ls -a
+  207  man ls-F
+  208  man ls -F
+  209  ls -F
+  210  ls lfz-staff/directory
+  211  ls lfz-staff
+  212  ls -aF lfz-staff
+  213  cd ..
+  214  cd command-line-basics
+  215  ls lfz-staff
+  216  cat lfz-staff/contents.txt
+  217  man pwd
+  218  pwd > i-was-here.txt
+  219  ls i-was-here.txt
+  220  cat i-was-here.txt
+  221  man echo
+  222  echo 'Hello, World!'
+  223  echo 'Hello, World!' > hello.txt
+  224  ls hello.txt
+  225  cat hello.txt
+  226  man touch
+  227  touch tag-youre-it.txt
+  228  touch snoot/boop.txt
+  229  ls snoot.
+  230  ls snoot/
+  231  man mkdir
+  232  mkdir parent
+  233  ls parent
+  234  ls parent/
+  235  man ls parent.
+  236  man ls parent/
+  237  mkdir -p parent/child/grandchild
+  238  ls -a
+  239  ls -a parent/child/grandchild
+  240  man mv
+  241  mv pokiemans pokemon
+  242  man mv pokiemans pokemon
+  243  ls pokemon
+  244  man rm
+  245  rm lol.txt
+  246  man rm lol.txt
+  247  cp and-then.txt
+  248  cp and-then.txt no-and-then.txt
+  249  man history
+  250  history
+  251  history > command-history.txt
