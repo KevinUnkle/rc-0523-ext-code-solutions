@@ -1,0 +1,58 @@
+.hot-button {
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid rgb(17, 17, 17);
+  box-shadow: 3px 3px 2px black;
+  border-radius: 0.15rem;
+  position: relative;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.hot-button:focus {
+  outline: none;
+}
+
+.hot-button:active {
+  top: 3px;
+}
+
+.hot-button.dark {
+  background-color: rgb(28, 15, 63);
+}
+
+.hot-button.cold {
+  background-color: rgb(44, 23, 97);
+}
+
+.hot-button.cool {
+  background-color: rgb(103, 78, 167);
+}
+
+.hot-button.tepid {
+  background-color: rgb(224, 102, 102);
+}
+
+.hot-button.warm {
+  background-color: rgb(246, 178, 107);
+}
+
+.hot-button.hot {
+  background-color: rgb(231, 231, 73);
+}
+
+.hot-button.nuclear {
+  background-color: rgb(255, 255, 255);
+}
+
+.hot-button.dark,
+.hot-button.cold,
+.hot-button.cool,
+.hot-button.tepid {
+  color: rgb(255, 255, 255);
+}
+
+.hot-button.warm,
+.hot-button.hot,
+.hot-button.nuclear {
+  color: rgb(70, 70, 70);
+}
