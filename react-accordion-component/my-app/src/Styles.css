@@ -1,0 +1,18 @@
+header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  line-height: 2rem;
+}
+
+header:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+.App {
+  width: 30rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
