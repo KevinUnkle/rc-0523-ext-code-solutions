@@ -25,6 +25,7 @@
     "stylelint-config-standard": "^32.0.0"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "react-icons": "^4.10.1"
   }
 }
