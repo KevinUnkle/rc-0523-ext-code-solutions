@@ -13,7 +13,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are the benefits of formatting your SQL?
   readability
 - What are four comparison operators that can be used in a `where` clause?
-  =, >, <, !=
+  =, >, <, !=.
 - How do you limit the number of rows returned in a result set?
   with the Limit clause
 - How do you retrieve all columns from a database table?
